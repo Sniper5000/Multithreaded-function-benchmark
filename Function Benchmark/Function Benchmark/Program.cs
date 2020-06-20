@@ -158,6 +158,7 @@ namespace Function_Benchmark
             while (Awaiting)
             {
                 //Do Nothing
+                Thread.Sleep(100);
             }
             var watch = new System.Diagnostics.Stopwatch();
 
